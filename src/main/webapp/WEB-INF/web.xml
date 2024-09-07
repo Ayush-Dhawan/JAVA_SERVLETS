@@ -16,5 +16,17 @@
         <url-pattern>/add</url-pattern>
     </servlet-mapping>
 
+    <!-- Servlet Configuration -->
+    <servlet>
+        <servlet-name>square</servlet-name>
+        <servlet-class>com.learningServlets.SquareServlet</servlet-class>
+    </servlet>
+
+    <!-- Servlet Mapping -->
+    <servlet-mapping>
+        <servlet-name>square</servlet-name>
+        <url-pattern>/sq</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
